@@ -71,3 +71,71 @@ img {
 .clear {
   clear: both;
 }
+
+/* MEDIA QUERIES */
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 420px)
+{
+  .row
+  {
+    margin-top: 0;
+    padding: 20px 30px;
+  }
+
+  img
+  {
+    margin-top: 40px;
+  }
+
+  /* RIGA LEZIONI DOVE VUOI TU */
+
+  #lezioni .row
+  {
+    background: #fcffd7;
+    font-size: 1.8em;
+  }
+
+  #lezioni .row .left, #lezioni .row .right
+  {
+    width: 100%;
+  }
+
+  /* RIGA COME FUNZIONA */
+
+  #steps .row
+  {
+    background: #fff;
+    font-size: 1.8em;
+  }
+
+  #steps .row .left, #steps .row .central, #steps .row .right
+  {
+    width: 100%;
+  }
+
+  /* RIGA PERCHÉ CADEMI; */
+
+  #why .row
+  {
+    background: #fcffd7;
+    font-size: 1.8em;
+  }
+
+  #why .row .first, #why .row .second, #why .row .third
+  {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  #why hr
+  {
+    border: 1px solid #000;
+  }
+}
